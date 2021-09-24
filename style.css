@@ -1,0 +1,292 @@
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .navbar {
+        padding: 0;
+      }
+      
+      .navbar ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+      }
+      
+      .navbar li {
+        position: relative;
+      }
+      
+      .navbar a, .navbar a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 16px;
+        margin-left: 10px;
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #669128;
+        white-space: nowrap;
+        transition: 0.3s;
+      }
+      
+      .navbar a i, .navbar a:focus i {
+        font-size: 12px;
+        line-height: 0;
+        margin-left: 5px;
+      }
+      
+      .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+        background: rgba(255, 255, 255, 0.2);
+      }
+      
+      .navbar .dropdown ul {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: calc(100% + 30px);
+        margin: 0;
+        padding: 10px 0;
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        background: #fff;
+        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+        transition: 0.3s;
+      }
+      
+      .navbar .dropdown ul li {
+        min-width: 200px;
+      }
+      
+      .navbar .dropdown ul a {
+        padding: 10px 20px;
+        font-size: 15px;
+        text-transform: none;
+        font-weight: 600;
+        color: #2f4d5a;
+      }
+      
+      .navbar .dropdown ul a i {
+        font-size: 12px;
+      }
+      
+      .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+        color: #213d08;
+      }
+      
+      .navbar .dropdown:hover > ul {
+        opacity: 1;
+        top: 100%;
+        visibility: visible;
+      }
+      #panier{
+        background-color: #669128;
+        padding: 10px;
+        border-radius: 15px;
+        height: 34px;
+        display: flex; justify-content: center; align-items: center;
+
+      }
+
+      
+      .navbar .dropdown .dropdown ul {
+        top: 0;
+        left: calc(100% - 30px);
+        visibility: hidden;
+      }
+      
+      .navbar .dropdown .dropdown:hover > ul {
+        opacity: 1;
+        top: 0;
+        left: 100%;
+        visibility: visible;
+      }
+      
+      @media (max-width: 1366px) {
+        .navbar .dropdown .dropdown ul {
+          left: -90%;
+        }
+        .navbar .dropdown .dropdown:hover > ul {
+          left: -100%;
+        }
+      }
+      .pp
+      {
+        background-size: cover;
+        background-repeat:no-repeat ;
+        width: 100%
+      }
+      .p{
+        width: 175px; height: 150px; position: absolute; bottom: -15px; left: 20px;
+  
+      }
+      p{
+        color:white;
+      }
+  
+      #specia{
+        margin-left: 220px; font-weight: 500; font-size: 15px;
+      }
+  
+      #decouvrez{
+        display: flex; flex-direction: row; justify-content: center; align-items: center; width: 100%;
+      }
+  
+      #decouvrez div{
+        width: 20%; height: 350px; box-sizing: border-box; padding: 25px 15px; display: flex; flex-direction: column; margin: 20px 7px; box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 15%);
+      }
+  
+      #decouvrez div img{
+        width: 100px;
+        align-self: center;
+        border-radius: 70%;
+      }
+      #decouvrez div h5{
+            text-align: center;
+            font-weight: 600;
+      }
+      #decouvrez div h6,#decouvrez div a{
+        text-align: center; word-wrap: break-word;
+      }
+      #decouvrez div a{
+        text-decoration: underline;
+        color: #1F5A1E;
+      }
+      #decouvrez div h6{
+        line-height: 24px;
+        font-size: 16px;
+      }
+  
+      /* ezyfhifgngtrrghae */
+      .decouvrez{
+        display: flex; flex-direction: row; justify-content: center; align-items: center; width: 100%;
+      }
+  
+      .decouvrez div{
+        width: 20%; height: 350px; padding: 25px 15px; display: flex; flex-direction: column; margin: 20px 7px; box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 15%);
+      }
+  
+      .decouvrez div img{
+        height: 65%; max-width: 85%; align-self: center;
+      }
+      .decouvrez div h5{
+            text-align: center;
+            font-weight: 600;
+      }
+      .decouvrez div h6,#decouvrez div a{
+        text-align: center;
+      }
+      .decouvrez div a{
+        background-color: #669128;
+        padding: 12px;
+        border-radius: 15px;
+        font-size: 14px; text-align: center;
+        color: #fff;
+      }
+      .decouvrez div h6{
+        line-height: 24px;
+        font-size: 16px;
+      }
+      .logo{
+        height: -95%; width: -85%;
+      }
+      .ent{
+        display: flex; flex-direction: row;  width: 100%; position: relative;
+      }
+
+      .ent div{
+        position: absolute; right: 40px; display: flex; flex-direction: row; align-items: center;
+      }
+
+      .ent div a{
+        background-color: #669128; text-decoration: none; color: #fff; padding: 10px 15px; border-radius: 18px;
+      }
+
+      .ent div div{
+        margin-right: 200px;
+      }
+      .ent div div input{
+        min-width: 240px; padding: 10px 0px 10px 10px;
+      }     
+      
+      #tel{
+        display: flex; flex-direction: row; align-items: center; margin-right: 80px;
+      }
+
+      #tel h6{
+        font-size: 15px; font-weight: bold;
+      }
+
+      input{
+        align-content: center;
+        border-radius: 25px;
+        width: 20%;
+        display: flex;
+        visibility: visible;
+        opacity: 100px;
+      
+      }
+     i{
+       
+     }
+
+     .ent div div #icon_search{
+       margin: 0px; margin-left: -10px; padding: 0px;
+     }
+     #icon_search i{
+       color: #213d08;
+     }
+
+.ligne-text{
+  display: flex; width: 100%; justify-content: center; align-items: center; color: #1F5A1E;
+}
+
+.ligne-text h4{
+  font-size: 15px;
+}
+
+.ligne-text div{
+  height: 22px; width: 4px; background-color: rgb(209, 28, 53); margin-right: 12px;
+}
+
+.ligne-sous-text{
+  display: flex; justify-content: center; align-items: center; width: 100%;
+}
+
+.ligne-sous-text h4{
+  font-size: 28px; color: #1F5A1E; font-weight: bold; margin: 15px;
+}
+footer{
+  margin:4px; padding: 4px; background-color: #1F5A1E;
+
+}
+
+.foot-haut{
+  display: flex; flex-direction: row; justify-content: center; align-items: center; width: 100%;
+
+}
+.foot-haut div{
+  max-width: 15%;  margin-right: 15px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: wrap;
+}
+
+.foot-haut div h5{
+  width: 100% ; margin: 7px 0px; line-height: 15px; color: #fff; word-wrap: break-word;
+}
+
+.foot-haut div:nth-child(1){
+  width: 28% !important;
+}
